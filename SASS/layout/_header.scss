@@ -1,0 +1,45 @@
+.title{
+    font-size: 36px;
+    font-weight: 900;
+    // color: black;
+    background-image: linear-gradient(
+        to right,
+        #e4d1ba,
+        #e4d1ba 50%,
+        #000 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 5px 0;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.7s ease-in-out;
+}
+.title:before {
+    content: '';
+    background: #e4d1ba;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .title:hover {
+   background-position: 0;
+  }
+  
+  .title:hover::before {
+    width:100%;
+  }
+
+.underline{
+    height: 1px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid black;
+}

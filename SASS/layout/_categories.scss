@@ -1,0 +1,33 @@
+.btn-menu{
+    font-size: 1.3rem !important;
+    font-weight: 700 !important;
+}
+/* Add the following styles for small and medium screens */
+@media (max-width: 992px) {
+    .scroll-menu {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* Optional: Enable smooth scrolling on iOS devices */
+        padding-bottom: 7px 
+    }
+
+    .scroll-menu::-webkit-scrollbar {
+        width: 12px;
+        height: 9px;
+    }
+
+    .scroll-menu::-webkit-scrollbar-thumb {
+        background-color: #e4d1ba;
+        border-radius: 6px;
+        padding: 2px;
+    }
+
+    .scroll-menu::-webkit-scrollbar-track {
+        background-color: #f0f0f0;
+        border-radius: 6px;
+    }
+    
+    .btn-menu {
+        flex: 0 0 auto;
+    }
+}

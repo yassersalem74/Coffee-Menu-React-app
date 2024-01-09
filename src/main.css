@@ -1,0 +1,187 @@
+body {
+  overflow-x: hidden;
+}
+
+.font {
+  font-family: "Almarai", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.rectangle {
+  height: 600px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 4px 4px 1px rgb(85, 85, 85);
+}
+
+.nodata {
+  height: 300px;
+  padding: 25px;
+}
+
+@media (max-width: 768px) {
+  .scroll-menu {
+    display: none !important;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+
+.font {
+  font-family: "Almarai", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.rectangle {
+  height: 600px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 4px 4px 1px rgb(85, 85, 85);
+}
+
+.nodata {
+  height: 300px;
+  padding: 25px;
+}
+
+@media (max-width: 768px) {
+  .scroll-menu {
+    display: none !important;
+  }
+}
+.navBar {
+  background-color: #e4d1ba;
+  font-family: "Almarai", sans-serif;
+  font-weight: 900;
+}
+
+.logo-pic {
+  width: 100px;
+}
+
+.search-box.active {
+  border: 3px solid black !important;
+}
+
+.active-filter {
+  background-color: black !important;
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .navBar {
+    height: 69px;
+  }
+  .logo-pic {
+    transform: translateY(18%);
+  }
+}
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  background-image: linear-gradient(to right, #e4d1ba, #e4d1ba 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.7s ease-in-out;
+}
+
+.title:before {
+  content: "";
+  background: #e4d1ba;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.title:hover {
+  background-position: 0;
+}
+
+.title:hover::before {
+  width: 100%;
+}
+
+.underline {
+  height: 1px;
+  width: 180px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.btn-menu {
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+}
+
+/* Add the following styles for small and medium screens */
+@media (max-width: 992px) {
+  .scroll-menu {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Optional: Enable smooth scrolling on iOS devices */
+    padding-bottom: 7px;
+  }
+  .scroll-menu::-webkit-scrollbar {
+    width: 12px;
+    height: 9px;
+  }
+  .scroll-menu::-webkit-scrollbar-thumb {
+    background-color: #e4d1ba;
+    border-radius: 6px;
+    padding: 2px;
+  }
+  .scroll-menu::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 6px;
+  }
+  .btn-menu {
+    flex: 0 0 auto;
+  }
+}
+.main-card {
+  border: 3px solid black !important;
+  border-radius: 15px;
+}
+
+.card-img {
+  height: 200px;
+  width: 100%;
+  border-radius: 15px 15px 0 15px;
+}
+
+.card-footer {
+  background-color: #e4d1ba !important;
+  color: black !important;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+.main-card {
+  border: 3px solid black !important;
+  border-radius: 15px;
+}
+
+.card-img {
+  height: 200px;
+  width: 100%;
+  border-radius: 15px 15px 0 15px;
+}
+
+.card-footer {
+  background-color: #e4d1ba !important;
+  color: black !important;
+  font-weight: 700;
+  border-radius: 15px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+@import './_global-rules';
+
+.navBar{
+    background-color: #e4d1ba;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 900 ;
+}
+
+.logo-pic{
+    width: 100px;
+}
+
+.search-box.active{
+    border: 3px solid black !important;
+}
+.active-filter{
+    background-color: black !important;
+    color: white;
+}
+
+@media only screen and (min-width: 992px) {
+    .navBar{
+        height: 69px
+    }
+    .logo-pic{
+        transform: translateY(18%);
+    }
+    
+  }
+

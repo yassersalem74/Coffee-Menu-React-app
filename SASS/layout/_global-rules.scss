@@ -1,0 +1,35 @@
+$myFont:  'Almarai', sans-serif;
+
+$headerFontSize: 35px;
+$headerFontWeight: 700;
+
+$normalFontSize: 18px;
+$normalFontWeight : 500;
+
+body {
+    overflow-x: hidden;
+}
+
+.font{
+    font-family: 'Almarai', sans-serif;
+    font-size: $headerFontSize;
+    font-weight: $headerFontWeight;
+}
+
+.rectangle{
+    height: 600px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 025);
+}
+.nodata{
+    height: 300px;
+    padding:25px ;
+}
+
+
+@media (max-width: 768px) {
+    .scroll-menu {
+      display: none !important;
+    }
+  }
