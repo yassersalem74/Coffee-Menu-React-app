@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Coffee-Menu-React-app/static/css/main.f23e39fe.css",
+    "main.js": "/Coffee-Menu-React-app/static/js/main.82a4b8db.js",
+    "static/media/IcedMocha.jpg": "/Coffee-Menu-React-app/static/media/IcedMocha.9f4b4c9716fabc04e318.jpg",
+    "static/media/ice latte.jpg": "/Coffee-Menu-React-app/static/media/ice latte.75f43e6cb743dcf63ee9.jpg",
+    "static/media/pngwing.com.png": "/Coffee-Menu-React-app/static/media/pngwing.com.6180724b7c4d50b7b089.png",
+    "static/media/cold brew.jpg": "/Coffee-Menu-React-app/static/media/cold brew.6223ed6518487877e9eb.jpg",
+    "static/media/Classic-Swiss-Roll.jpg": "/Coffee-Menu-React-app/static/media/Classic-Swiss-Roll.6baae0c1139414b3b4f3.jpg",
+    "static/media/cappuccino_0.jpg": "/Coffee-Menu-React-app/static/media/cappuccino_0.fb19b2d805881a812439.jpg",
+    "static/media/americano.jpg": "/Coffee-Menu-React-app/static/media/americano.e6f821829c84c93404e7.jpg",
+    "static/media/choclatesponge.jpg": "/Coffee-Menu-React-app/static/media/choclatesponge.b2e171d97646d657b155.jpg",
+    "static/media/Flat_White.jpg": "/Coffee-Menu-React-app/static/media/Flat_White.ae7fc98f8202f290422f.jpg",
+    "static/media/Cafe_Mocha.jpg": "/Coffee-Menu-React-app/static/media/Cafe_Mocha.c2f1908f130a6b3466a7.jpg",
+    "static/media/nomeetings.jpg": "/Coffee-Menu-React-app/static/media/nomeetings.f97a2d7c113a7e39dc1d.jpg",
+    "static/media/Frappe.jpg": "/Coffee-Menu-React-app/static/media/Frappe.56d0ac4677f496a4e9ea.jpg",
+    "static/media/Caffe_Latte.jpg": "/Coffee-Menu-React-app/static/media/Caffe_Latte.b0fdbd063ad4a91a81fc.jpg",
+    "index.html": "/Coffee-Menu-React-app/index.html",
+    "main.f23e39fe.css.map": "/Coffee-Menu-React-app/static/css/main.f23e39fe.css.map",
+    "main.82a4b8db.js.map": "/Coffee-Menu-React-app/static/js/main.82a4b8db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f23e39fe.css",
+    "static/js/main.82a4b8db.js"
+  ]
+}
